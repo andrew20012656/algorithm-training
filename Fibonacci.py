@@ -5,3 +5,6 @@ def fibonacci(n):
     for i in range(2,n):
         lst[i] = lst[i-2] + lst[i-1]
     return lst[n-1]
+
+n = int(input())
+print(fibonacci(n))
